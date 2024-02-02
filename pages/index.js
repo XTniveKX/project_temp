@@ -14,25 +14,24 @@ const CardItem = ({ title, url }) => (
   </div>
 );
 
-const Dashboard = () => {
-  const [list, setList] = useState([]);
-  const loadData = async () => {
-    try {
-      const cat = await axios.get("/api/category/get");
-      setList(cat.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+export async function getServerSideProps() {
+  const basePath = process.env.basePath || "";
+  try {
+    const data = await axios.get(basePath + "/api/category/get");
 
-  useEffect(() => {
-    loadData();
-  }, []);
+    return {
+      props: { list: data.data },
+    };
+  } catch (error) {
+    throw error;
+  }
+}
 
+const Dashboard = ({ list }) => {
   return (
     <div className="p-5">
       <div className="grid">
-        {list.map((item, index) => (
+        {list?.map((item, index) => (
           <CardItem
             title={item.category_name}
             url={"/" + item.tag}
