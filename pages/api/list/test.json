@@ -1,0 +1,169 @@
+[
+  {
+    "label": "Home",
+    "items": [{ "label": "Dashboard", "to": "/" }]
+  },
+  {
+    "label": "UI Components",
+    "items": [
+      {
+        "label": "Form Layout",
+        "to": "/uikit/formlayout"
+      },
+      {
+        "label": "Input",
+        "to": "/uikit/input"
+      },
+      {
+        "label": "Float Label",
+        "to": "/uikit/floatlabel"
+      },
+      {
+        "label": "Invalid State",
+        "to": "/uikit/invalidstate"
+      },
+      {
+        "label": "Button",
+        "to": "/uikit/button"
+      },
+      { "label": "Table", "to": "/uikit/table" },
+      { "label": "List", "to": "/uikit/list" },
+      { "label": "Tree", "to": "/uikit/tree" },
+      { "label": "Panel", "to": "/uikit/panel" },
+      { "label": "Overlay", "to": "/uikit/overlay" },
+      { "label": "Media", "to": "/uikit/media" },
+      {
+        "label": "Menu",
+        "to": "/uikit/menu"
+      },
+      { "label": "Message", "to": "/uikit/message" },
+      { "label": "File", "to": "/uikit/file" },
+      { "label": "Chart", "to": "/uikit/charts" },
+      { "label": "Misc", "to": "/uikit/misc" }
+    ]
+  },
+  {
+    "label": "Prime Blocks",
+    "items": [
+      {
+        "label": "Free Blocks",
+        "to": "/blocks",
+        "badge": "NEW"
+      },
+      {
+        "label": "All Blocks",
+        "url": "https://blocks.primereact.org",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "label": "Utilities",
+    "items": [
+      {
+        "label": "PrimeIcons",
+        "to": "/utilities/icons"
+      },
+      {
+        "label": "PrimeFlex",
+        "url": "https://www.primefaces.org/primeflex/",
+        "target": "_blank"
+      }
+    ]
+  },
+  {
+    "label": "Pages",
+    "to": "/pages",
+    "items": [
+      {
+        "label": "Landing",
+        "to": "/landing"
+      },
+      {
+        "label": "Auth",
+        "items": [
+          {
+            "label": "Login",
+            "to": "/auth/login"
+          },
+          {
+            "label": "Error",
+            "to": "/auth/error"
+          },
+          {
+            "label": "Access Denied",
+            "to": "/auth/access"
+          }
+        ]
+      },
+      {
+        "label": "Crud",
+        "to": "/pages/crud"
+      },
+      {
+        "label": "Timeline",
+        "to": "/pages/timeline"
+      },
+      {
+        "label": "Not Found",
+        "to": "/pages/notfound"
+      },
+      {
+        "label": "Empty",
+        "to": "/pages/empty"
+      }
+    ]
+  },
+  {
+    "label": "Hierarchy",
+    "items": [
+      {
+        "label": "Submenu 1",
+        "items": [
+          {
+            "label": "Submenu 1.1",
+            "items": [
+              { "label": "Submenu 1.1.1" },
+              { "label": "Submenu 1.1.2" },
+              { "label": "Submenu 1.1.3" }
+            ]
+          },
+          {
+            "label": "Submenu 1.2",
+            "items": [{ "label": "Submenu 1.2.1" }]
+          }
+        ]
+      },
+      {
+        "label": "Submenu 2",
+        "items": [
+          {
+            "label": "Submenu 2.1",
+            "items": [
+              { "label": "Submenu 2.1.1" },
+              { "label": "Submenu 2.1.2" }
+            ]
+          },
+          {
+            "label": "Submenu 2.2",
+            "items": [{ "label": "Submenu 2.2.1" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Get Started",
+    "items": [
+      {
+        "label": "Documentation",
+        "to": "/documentation"
+      },
+      {
+        "label": "View Source",
+        "url": "https://github.com/primefaces/sakai-react",
+        "target": "_blank"
+      }
+    ]
+  }
+]

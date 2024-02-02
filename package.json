@@ -1,0 +1,45 @@
+{
+  "name": "sakai-react",
+  "version": "9.1.2",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.1",
+    "chart.js": "4.2.1",
+    "cookie": "^0.5.0",
+    "draft-convert": "^2.1.13",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "iron-session": "^6.3.1",
+    "jose": "^4.15.4",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "localforage": "^1.10.0",
+    "next": "13.2.3",
+    "npm": "^9.8.1",
+    "pg": "^8.11.3",
+    "primeflex": "3.3.0",
+    "primeicons": "^6.0.1",
+    "primereact": "9.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-select": "^5.7.4",
+    "react-tag-input-component": "^2.0.2",
+    "sweetalert2": "^11.7.20"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
