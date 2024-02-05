@@ -10,6 +10,8 @@ npm install
 yarn install
 ```
 
+If you need to config database, you can open `next.config.js`.
+
 After that, run the development server:
 
 ```bash
